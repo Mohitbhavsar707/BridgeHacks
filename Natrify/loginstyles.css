@@ -1,0 +1,60 @@
+.login{
+    position: absolute;
+    display: grid;
+    width: 70px;
+
+    top: 42%;
+    left: 43%;
+    
+  }
+
+  .log{
+    text-align: center
+  }
+
+
+  header {
+  background: #214a20;
+  color: #F7FFF7;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  width: 100%;
+
+}
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+
+.loginField{
+    border-radius: 4px; 
+    margin-bottom: 10px; 
+    height: 25px;
+    border-width: 0.5px;
+    outline: none;
+}
+
+
+.loginBTN{
+    display: block;
+    background: #73ab5c;
+    border:none;
+    outline:none;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    font-size: larger;
+    transition: 0.2s;
+}
+.loginBTN:active{
+  background: #578544;
+  transition: 0.3s;
+  transform: scale(0.9, 0.9);
+}
+.loginBTN:hover{
+  cursor: pointer;
+  background: #578544;
+}
